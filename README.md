@@ -38,12 +38,12 @@ The DSA Sheet by Arsh Goyal is a curated list of 270-280 questions frequently as
 ```
 CrackYourInternship/
 ├── Day01/
-│   ├── Question1.md
-│   ├── Question2.md
+│   ├── Question1.py
+│   ├── Question2.py
 │   ├── ...
 ├── Day02/
-│   ├── Question1.md
-│   ├── Question2.md
+│   ├── Question1.py
+│   ├── Question2.py
 │   ├── ...
 ├── Day03/
 │   ├── ...
