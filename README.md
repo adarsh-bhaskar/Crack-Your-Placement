@@ -78,9 +78,9 @@ To maintain quality and prevent burnout, there is a cooldown of 5 minutes betwee
 
 Feel free to reach out if you have any questions or need support.
 
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/b-a-adarsh/)
-- GitHub: [Your GitHub Profile](https://github.com/Adarsh79)
-- Twitter: [Your Twitter Profile](https://twitter.com/AdarshB79)
+- [LinkedIn](https://www.linkedin.com/in/b-a-adarsh/)
+- [GitHub](https://github.com/Adarsh79)
+- [Twitter](https://twitter.com/AdarshB79)
 
 **Special thanks to [Arsh Goyal](https://www.linkedin.com/in/arshgoyal/) for curating this amazing challenge!**
 
