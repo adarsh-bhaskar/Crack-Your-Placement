@@ -65,9 +65,10 @@ CrackYourInternship/
 
 | Day | Question   | Status | Link                     |
 |-----|------------|--------|--------------------------|
-| 1   | Question 1 | ✅     | [Solution](Day01/Question1.md) |
-| 1   | Question 2 | ✅     | [Solution](Day01/Question2.md) |
-| ... | ...        | ...    | ...                      |
+| 1   | Question 1 | ✅     | [Solution](Day01/Question1.py) |
+| 1   | Question 2 | ✅     | [Solution](Day01/Question2.py) |
+| 1   | Question 3 | ✅     | [Solution](Day01/Question3.py) |
+| 1   | Question 4 | ✅     | [Solution](Day01/Question4.py) |
 
 ## Cooldown Policy
 
