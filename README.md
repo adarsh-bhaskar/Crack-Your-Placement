@@ -6,8 +6,8 @@ Welcome to the **Revise with Arsh** challenge! This repository will track my pro
 
 **Duration:** 45-60 Days  
 **Daily Goal:** 4-5 DSA questions  
-**Start Date:** [Insert Start Date]  
-**End Date:** [Insert End Date]
+**Start Date:** [14/07/2024]  
+**End Date:** [11/09/2024]
 
 ## What is the DSA Sheet?
 
