@@ -1,3 +1,5 @@
+# https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1
+
 def findMinDiff(A, N, M):
     if N == 0 or M == 0:
         return 0

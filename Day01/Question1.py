@@ -1,3 +1,5 @@
+# Leetcode 287
+
 from typing import List
 
 def findDuplicate(nums: List[int]) -> int:
