@@ -85,10 +85,10 @@ CrackYourInternship/
 | 5   | Question 18 | ✅     | [Solution](Day05/Question18.py) |
 | 5   | Question 19 | ✅     | [Solution](Day05/Question19.py) |
 | 5   | Question 20 | ✅     | [Solution](Day05/Question20.py) |
-| 6   | Question 21 | ✅     | [Solution](Day05/Question21.py) |
-| 6   | Question 22 | ✅     | [Solution](Day05/Question22.py) |
-| 6   | Question 23 | ✅     | [Solution](Day05/Question23.py) |
-| 6   | Question 24 | ✅     | [Solution](Day05/Question24.py) |
+| 6   | Question 21 | ✅     | [Solution](Day06/Question21.py) |
+| 6   | Question 22 | ✅     | [Solution](Day06/Question22.py) |
+| 6   | Question 23 | ✅     | [Solution](Day06/Question23.py) |
+| 6   | Question 24 | ✅     | [Solution](Day06/Question24.py) |
 
 ## Cooldown Policy
 
