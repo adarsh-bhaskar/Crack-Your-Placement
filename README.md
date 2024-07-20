@@ -69,6 +69,26 @@ CrackYourInternship/
 | 1   | Question 2 | ✅     | [Solution](Day01/Question2.py) |
 | 1   | Question 3 | ✅     | [Solution](Day01/Question3.py) |
 | 1   | Question 4 | ✅     | [Solution](Day01/Question4.py) |
+| 2   | Question 5 | ✅     | [Solution](Day02/Question5.py) |
+| 2   | Question 6 | ✅     | [Solution](Day02/Question6.py) |
+| 2   | Question 7 | ✅     | [Solution](Day02/Question7.py) |
+| 2   | Question 8 | ✅     | [Solution](Day02/Question8.py) |
+| 3   | Question 9 | ✅     | [Solution](Day03/Question9.py) |
+| 3   | Question 10 | ✅     | [Solution](Day03/Question10.py) |
+| 3   | Question 11 | ✅     | [Solution](Day03/Question11.py) |
+| 3   | Question 12 | ✅     | [Solution](Day03/Question12.py) |
+| 4   | Question 13 | ✅     | [Solution](Day04/Question13.py) |
+| 4   | Question 14 | ✅     | [Solution](Day04/Question14.py) |
+| 4   | Question 15 | ✅     | [Solution](Day04/Question15.py) |
+| 4   | Question 16 | ✅     | [Solution](Day04/Question16.py) |
+| 5   | Question 17 | ✅     | [Solution](Day05/Question17.py) |
+| 5   | Question 18 | ✅     | [Solution](Day05/Question18.py) |
+| 5   | Question 19 | ✅     | [Solution](Day05/Question19.py) |
+| 5   | Question 20 | ✅     | [Solution](Day05/Question20.py) |
+| 6   | Question 21 | ✅     | [Solution](Day05/Question21.py) |
+| 6   | Question 22 | ✅     | [Solution](Day05/Question22.py) |
+| 6   | Question 23 | ✅     | [Solution](Day05/Question23.py) |
+| 6   | Question 24 | ✅     | [Solution](Day05/Question24.py) |
 
 ## Cooldown Policy
 
