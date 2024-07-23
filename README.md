@@ -97,6 +97,10 @@ CrackYourInternship/
 | 8   | Question 30 | ✅     | [Solution](Day08/Question30.py) |
 | 8   | Question 31 | ✅     | [Solution](Day08/Question31.py) |
 | 8   | Question 32 | ✅     | [Solution](Day08/Question32.py) |
+| 9   | Question 33 | ✅     | [Solution](Day09/Question33.py) |
+| 9   | Question 34 | ✅     | [Solution](Day09/Question34.py) |
+| 9   | Question 35 | ✅     | [Solution](Day09/Question35.py) |
+| 9   | Question 36 | ✅     | [Solution](Day09/Question36.py) |
 
 ## Cooldown Policy
 
