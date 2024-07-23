@@ -1,56 +1,80 @@
 # https://www.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1
 
 # User function Template for python3
-import math
-
 
 class Solution:
     
-    # Function to find the smallest window in the string s consisting
-    # of all the characters of string p.
+    #Function to find the smallest window in the string s consisting
+    #of all the characters of string p.
+    
+    
     def smallestWindow(self, s, p):
-        if len(s) == 0 or len(p) == 0: return 0
-
-        map = {}
-        for c in p:
-            map[c] = map.get(c, 0) + 1
+        no_of_chars = 256
         
-        requiredMatch = len(map)
-        left = 0
-        minLeft = 0
-        minLength = math.inf
-        matchedSoFar = 0
+        len1 = len(s)
+        len2 = len(p)
+    
+        # Check if string's length is
+        # less than pattern's
+        # length. If yes then no such
+        # window can exist
+        if len1 < len2:
+            return -1
+    
+        hash_pat = [0] * no_of_chars
+        hash_str = [0] * no_of_chars
+    
+        # Store occurrence ofs characters of pattern
+        for i in range(0, len2):
+            hash_pat[ord(p[i])] += 1
+    
+        start, start_index, min_len = 0, -1, float('inf')
+    
+        # Start traversing the string
+        count = 0  # count of characters
+        for j in range(0, len1):
+    
+            # count occurrence of characters of string
+            hash_str[ord(s[j])] += 1
+    
+            # If string's char matches with
+            # pattern's char then increment count
+            if (hash_str[ord(s[j])] <=
+                    hash_pat[ord(s[j])]):
+                count += 1
+    
+            # if all the characters are matched
+            if count == len2:
+    
+                # Try to minimize the window
+                while (hash_str[ord(s[start])] >
+                       hash_pat[ord(s[start])] or
+                       hash_pat[ord(s[start])] == 0):
+    
+                    if (hash_str[ord(s[start])] >
+                            hash_pat[ord(s[start])]):
+                        hash_str[ord(s[start])] -= 1
+                    start += 1
+    
+                # update window size
+                len_window = j - start + 1
+                if min_len > len_window:
+    
+                    min_len = len_window
+                    start_index = start
+    
+        # If no window found
+        if start_index == -1:
+            return -1
+    
+        # Return substring starting from
+        # start_index and length min_len
+        return s[start_index: start_index + min_len]
 
-        for right in range(len(s)):
-            c = s[right]
 
-            if c in map:
-                map[c] -= 1
-                if map[c] == 0:
-                    matchedSoFar += 1
-                
-                while matchedSoFar == requiredMatch:
-                    if right - left + 1 < minLength:
-                        minLeft = left
-                        minLeft = right - left + 1
-                    
-                    leftChar = s[left]
-                    if leftChar in map:
-                        map[leftChar] = map.get(leftChar, 0) + 1
-                        if map[leftChar] == 1:
-                            matchedSoFar -= 1
-                    
-                    left -= 1
-        if minLength == math.inf:
-            return ""
-
-        return s[minLeft: minLeft + minLength]
-
-
-
-
-
-# Driver Code Starts
+#{ 
+ # Driver Code Starts
+#Initial Template for Python 3
 
 import atexit
 import io
@@ -73,5 +97,4 @@ if __name__=='__main__':
         p=str(input())
         ob = Solution()
         print(ob.smallestWindow(s,p))
-
-# Driver Code Ends
+# } Driver Code Ends
